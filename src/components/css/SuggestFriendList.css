@@ -1,0 +1,26 @@
+.suggest-friend-list {
+  width: 325px;
+  padding: 10px;
+}
+
+.suggest-friend-list .title  {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  padding-left: 8px;
+}
+
+.suggest-friend-list .title .suggest-for-you {
+  color: rgb(142, 142, 142);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  
+}
+.suggest-friend-list .title .show-all {
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  padding-top: 3px;
+}

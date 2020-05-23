@@ -1,0 +1,41 @@
+.suggest-friend-item {
+  display: flex;
+}
+
+.suggest-friend-item img {
+  margin: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.suggest-friend-item .info {
+  margin: 10px 0px;
+  flex-grow: 1;
+}
+
+.suggest-friend-item .info .name {
+  font-size: 14px;
+  color: rgb(38, 38, 38);
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.suggest-friend-item .info .suggest {
+  font-size: 12px;
+  color: rgb(142, 142, 142);
+  font-weight: 400;
+  line-height: 14px;
+}
+.suggest-friend-item a {
+  color: rgb(0, 149, 246);
+  font-size: 12px;
+  font-weight: 600;
+}
+.suggest-friend-item .follow {
+    padding-top: 12px;
+}
+.suggest-friend-item a:hover {
+  text-decoration: none;
+}
+
+

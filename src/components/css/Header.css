@@ -1,0 +1,38 @@
+.nav-container {
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.nav-container .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px 5px 0px;
+}
+.nav-container .container .list-icon {
+  display: flex;
+}
+.nav-container .container > div {
+  flex-grow: 1;
+  flex-basis: 100px;
+}
+.nav-container .container .search-box input {
+  width: 180px;
+  height: 20px;
+  /* padding: 5px 5px; */
+  outline: none;
+  border: 1px solid rgb(219, 219, 219);
+
+}
+
+.nav-container .container .list-icon img {
+  width: 24px;
+  height: 24px;
+  margin-left: 24px; 
+}
+
+.nav-container .container .list-icon .avatar {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+

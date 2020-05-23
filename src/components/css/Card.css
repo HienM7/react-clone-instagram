@@ -1,0 +1,84 @@
+.card-container {
+  width: 614px;
+  border: 1px solid rgb(219, 219, 219);
+  margin-top: 60px;
+  border-radius: 3px;
+
+}
+.card-container .author {
+display: flex;
+border-bottom: 1px solid rgb(219, 219, 219);
+padding: 10px;
+
+}
+
+.card-container .author img {
+width: 32px;
+height: 32px;
+border-radius: 50%;
+}
+
+.card-container .author .author-name {
+color: rgb(38, 38, 38);
+font-size: 14px;
+font-weight: 600;
+line-height: 18px;
+padding-top: 5px;
+margin-left: 16px;
+}
+.card-container .post-image img{
+width: 100%;
+max-height: 767px;
+}
+
+.card-container .interact {
+display: flex;
+justify-content: space-between;
+padding: 0 8px;
+margin-top: 4px;
+}
+.card-container .interact img {
+width: 24px;
+height: 24px;
+margin: 8px;
+}
+.card-container .post-info {
+padding: 0 16px;
+}
+.card-container .post-info .like {
+ color: rgb(38, 38, 38);
+font-size: 14px;
+font-weight: 600;
+line-height: 18px;
+margin-bottom: 8px; 
+}
+.card-container .post-info .comment {
+color: rgb(38, 38, 38);
+font-size: 14px;
+font-weight: 600;
+line-height: 18px;
+padding-bottom: 3px;
+}
+
+.card-container .post-info .comment span {
+color: rgb(38, 38, 38);
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+min-width: 100px;
+}
+
+.card-container .input-comment input {
+box-sizing: border-box;
+width: 100%;
+height: 55px;
+padding: 0 16px;
+margin-top: 4px;
+border: none;
+outline: none;
+font-size: 14px;
+line-height: 18px;
+font-weight: 400;
+}
+
+

@@ -1,35 +1,43 @@
 .nav-container {
   border-bottom: 1px solid rgb(219, 219, 219);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #FFF;
 }
 
-.nav-container .container {
+.nav-container .wrap {
+  width: 935px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   padding: 15px 0px 5px 0px;
+  position: relative;
 }
-.nav-container .container .list-icon {
+.nav-container .wrap .list-icon {
   display: flex;
 }
-.nav-container .container > div {
-  flex-grow: 1;
+.nav-container .wrap > div {
   flex-basis: 100px;
 }
-.nav-container .container .search-box input {
-  width: 180px;
+.nav-container .wrap .search-box input {
+  width: 200px;
   height: 20px;
-  /* padding: 5px 5px; */
   outline: none;
   border: 1px solid rgb(219, 219, 219);
-
+  text-align: center;
+}
+.nav-container .wrap .search-box input:focus {
+ text-align: start;
 }
 
-.nav-container .container .list-icon img {
+.nav-container .wrap .list-icon img {
   width: 24px;
   height: 24px;
   margin-left: 24px; 
 }
 
-.nav-container .container .list-icon .avatar {
+.nav-container .wrap .list-icon .avatar {
     width: 26px;
     height: 26px;
     border-radius: 50%;

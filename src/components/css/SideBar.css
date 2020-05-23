@@ -1,0 +1,29 @@
+.sidebar {
+  width: 325px;
+  padding: 10px;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  height: 100vh;
+
+}
+.sidebar .account .avatar {
+  margin-left: 18px;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.sidebar .account {
+  display: flex;
+}
+
+.sidebar .account .username{
+  padding-left: 15px;
+  padding-top: 14px;
+  color: rgb(38, 38, 38);
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+}

@@ -1,0 +1,104 @@
+.register-form {
+  width: 348px;
+  border-radius: 3px;
+  border: 1px solid rgb(219, 219, 219);
+  text-align: center;
+  padding: 10px 0px;
+  margin-bottom: 10px;
+}
+
+.register-form .logo img {
+  margin: 22px auto 5px auto;
+  width: 175px;
+  height: 51px;
+}
+
+.register-form .field input {
+  width: 266px;
+  color: rgb(38, 38, 38);
+  font-size: 16px;
+  line-height: 18px;
+  border-radius: 3px;
+  border: 1px solid rgb(219, 219, 219);
+  outline: none;
+  padding: 8px;
+  margin-bottom: 6px;
+}
+.register-form .field input:focus {
+  border: 1px solid rgb(168, 168, 168);
+}
+
+.register-form .field input::placeholder {
+  font-size: 12px;
+  color: rgb(142, 142, 142);
+}
+
+.register-form .field button {
+  width: 266px;
+  padding: 4px 9px;
+  background-color: rgb(0, 149, 246);
+  border-radius: 4px;
+  border:none;
+  color: #FFF;
+  margin-top: 6px;
+}
+
+.register-form .or {
+  color: rgb(142, 142, 142);
+  font-size: 13px;
+  font-weight: 600px;
+  line-height: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.register-form .logo h2 {
+  color: rgb(142, 142, 142);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  width: 250px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.register-form .login-fb {
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+  border: none;
+  background-color: rgb(0, 149, 246);
+  border-radius: 4px;
+  padding: 5px 9px;
+  padding-bottom: 10px;
+  width: 266px;
+}
+.register-form .login-fb span {
+  position: relative;
+  top: 3px;
+  padding-left: 5px;
+}
+
+.register-form .login-fb > img {
+  width: 16px;
+  padding-top: 2px;
+}
+
+.register-form .field .note {
+
+  width: 266px;
+  color: rgb(142, 142, 142);
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 12px;
+  margin: 20px auto 25px auto;
+}
+
+.register-form .field .note a {
+  font-weight: 600;
+  color: rgb(142, 142, 142);
+  line-height: 16px;
+  font-size: 12px;
+  text-decoration: none;
+}

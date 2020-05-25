@@ -1,14 +1,9 @@
 import React, { Component } from 'react';
 
-import { 
-  Container,
-  Col,
-  Row
-} 
-from "reactstrap"; 
 import './css/Header.css';
 
 import SideBar from './SideBar';
+import UserStore from '../stores/UserStore';
 
 
 export default class extends Component {
@@ -18,7 +13,7 @@ export default class extends Component {
       <div className="nav-container">
           <div className="wrap">
             <div className="">
-              <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="Instagram" />
+              <img src="/instagram-word-icon-logo-nav.png" alt="Instagram" />
             </div>
             <div className="search-box">
               <input type="text" placeholder="Tìm kiếm" />
@@ -28,7 +23,7 @@ export default class extends Component {
               <img src="/paper-plane.png" alt="message" />
               <img src="/compass.png" alt="compass" />
               <img src="/heart.png" alt="heart" />
-              <img className="avatar" alt="avatar" src="https://scontent.fdad3-3.fna.fbcdn.net/v/t1.0-9/p960x960/81408626_1418771648327505_7275560099890855936_o.jpg?_nc_cat=109&_nc_sid=85a577&_nc_ohc=qh-mhSu4qlIAX9hoJ4m&_nc_ht=scontent.fdad3-3.fna&_nc_tp=6&oh=541711c1880dae39041a34a539bb4254&oe=5EEC718D" />
+              <img className="avatar" alt="avatar" src={UserStore.avatarUrl || "/avatarDefault.png"} />
             </div>
             <SideBar />
           </div>

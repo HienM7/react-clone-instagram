@@ -40,7 +40,11 @@
   border-radius: 4px;
   border:none;
   color: #FFF;
-  margin-top: 6px;
+  margin-top: 10px;
+}
+
+.register-form .field button:disabled {
+  opacity: 0.3;
 }
 
 .register-form .or {
@@ -93,6 +97,15 @@
   line-height: 16px;
   font-size: 12px;
   margin: 20px auto 25px auto;
+}
+
+.register-form .alert {
+  color: rgb(237, 73, 86);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  width: 268px;
+  margin: 0 auto;
 }
 
 .register-form .field .note a {

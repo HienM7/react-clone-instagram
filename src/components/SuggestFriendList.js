@@ -1,12 +1,5 @@
 import React, { Component } from 'react';
 
-import { 
-  Container,
-  Col,
-  Row
-} 
-from "reactstrap";
-
 import SuggestFriend from "./SuggestFriend";
 import './css/SuggestFriendList.css';
 

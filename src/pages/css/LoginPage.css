@@ -1,0 +1,55 @@
+.login-full-form {
+  width: 350px;
+}
+
+.login-full-form .link-register {
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid rgb(219, 219, 219);
+  padding: 18px;
+  color: rgb(38, 38, 38);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+.login-full-form .link-register a {
+  text-decoration: none;
+  color: rgb(0, 149, 246);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+/* ///////////////////// */
+
+.download {
+  text-align: center;
+  margin: 20px;
+}
+.download .store {
+  margin-top: 20px;
+}
+
+.download img {
+  width: 136px;
+  height: 40px;
+  padding: 2px;
+}
+
+
+/* ////////////////////////////// */
+
+.login-page {
+  width: 935px;
+  display: flex;  
+  margin: 100px auto;
+  justify-content: center;
+
+}
+
+.login-page .phone {
+  padding-right: 25px;
+}

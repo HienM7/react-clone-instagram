@@ -38,7 +38,7 @@ export default class extends Component {
       }
     });
     try {
-      const res = axios.post(
+      const res = await axios.post(
         "https://hilarious-pointed-taker.glitch.me/api/posts/like", 
         {
           "token": localStorage.getItem("token"),
@@ -46,6 +46,7 @@ export default class extends Component {
           "postId": postId
         }  
       );
+      console.log(res.data);
     } catch (e) {
       console.log(e);
     }  

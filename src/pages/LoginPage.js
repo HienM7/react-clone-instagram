@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 
 import './css/LoginPage.css';
 import LoginForm from "../components/LoginForm";
+import {
+ Link
+} from "react-router-dom";
 
 export default class extends Component {
   render() {
@@ -14,7 +17,7 @@ export default class extends Component {
             <LoginForm />
             <div className="link-register">
               Bạn không có tài khoản? 
-              <a href="#">{" Đăng ký"}</a>
+              <Link className="link" to="/register">{" Đăng ký"}</Link>
             </div>
             <div className="download">
               <div>

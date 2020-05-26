@@ -58,6 +58,7 @@ export default class extends Component {
         });
         console.log(result);
         UserStore.username = result.username;
+        UserStore.userId = result.userId;
         UserStore.avatarUrl = result.avatarUrl
         UserStore.isLoggedIn = true;
         localStorage.setItem('token', result.token);

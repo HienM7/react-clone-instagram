@@ -96,7 +96,7 @@ export default class extends Component {
     return (
       <div class="register-form">
         <div class="logo">
-          <img src="https://logo-logos.com/wp-content/uploads/2016/10/Instagram_logo_wordmark_logotype.png" alt="" />
+          <img src="/Instagram_logo_wordmark_logotype.png" alt="" />
           <h2>
             Đăng ký để xem ảnh và video từ bạn bè.
           </h2>

@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 
 import './css/RegisterPage.css';
 import RegisterForm from "../components/RegisterForm";
+import {
+ Link
+} from "react-router-dom";
 
 export default class extends Component {
   render() {
@@ -10,7 +13,7 @@ export default class extends Component {
         <RegisterForm />
         <div className="link-login">
           Bạn có tài khoản? 
-          <a href="/">{" Đăng nhập"}</a>
+          <Link className="link" to="Login">{" Đăng nhập"}</Link>
         </div>
         <div className="download">
           <div>

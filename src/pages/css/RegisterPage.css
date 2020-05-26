@@ -21,20 +21,12 @@
   line-height: 18px;
 }
 
-.register-page .link-login a {
+.register-page .link-login .link {
   text-decoration: none;
   color: rgb(0, 149, 246);
   font-size: 14px;
   font-weight: 600;
 }
-
-
-
-
-
-
-
-
 
 .download {
   text-align: center;
